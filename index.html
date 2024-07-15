@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="Css/style.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+  <!-- header  -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">Chirag Patil</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fa-solid fa-house nav-icon"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><i class="fa-solid fa-user nav-icon"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link"><i class="fa-solid fa-file nav-icon"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link"><i class="fa-solid fa-image nav-icon"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><i class="fa-solid fa-message nav-icon"></i> Contact</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+      </div>
+
+      <div class="nav-btns">
+        <!-- theme btn  -->
+        <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-content grid">
+          <div class="home-social">
+            <a href="https://www.linkedin.com/in/chiragpatil23/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/_chiragpatil__/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/chiragpatil-23/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <div class="home-img">
+            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home-blob-img" x="-15" y="-5" href="images/Icons/logo1.png" />
+              </g>
+            </svg>
+          </div>
+
+          <div class="home-data">
+            <h1 class="home-title">Hi, I am Chirag Patil</h1>
+            <h3 class="home-subtitle">Web Developer</h3>
+            <p class="home-description">
+              Passionate Web developer specializing in pixel-perfect web
+              design.
+            </p>
+            <a href="#contact" class="button button-flex">
+              Contact Me <i class="fa-regular fa-envelope button-icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home-scroll">
+          <a href="#about" class="home-scroll-button button-flex">
+            <!-- <i class="fa-solid fa-computer-mouse home-scroll-mouse"></i> -->
+            <img class="home-scroll-mouse" src="images/mouse.svg" alt="" />
+            <span class="home-scroll-name">Scroll down</span>
+            <i class="fa-solid fa-angles-down home-scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About Me</h2>
+      <span class="section-subtitle">My Introduction</span>
+
+      <div class="about-container container grid">
+        <img src="images/Icons/aboutimg.png" alt="" class="about-img" />
+
+        <div class="about-data">
+          <p class="about-description">
+            Hello! I'm Chirag Patil, a passionate web developer with a love for crafting clean, efficient, and
+            user-friendly websites. Driven by curiosity and a constant desire to learn, I flourish on staying updated
+            with
+            the latest web technologies and trends.
+          </p>
+
+
+
+          <div class="about-buttons">
+            <a download="" href="#" class="button button-flex">
+              Download Resume<i class="fa-solid fa-file-arrow-down button-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills and qualification  -->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <span class="section-subtitle">My Technical Skills</span>
+      <div class="skills-content container">
+        <div class="skills-name">C
+
+</HTML>
+
+</HTml>
+</div>
+<div class="skills-name">C++</div>
+<div class="skills-name">Python</div>
+<div class="skills-name">Html</div>
+<div class="skills-name">CSS</div>
+<div class="skills-name">Tailwind CSS</div>
+<div class="skills-name">JavaScript</div>
+<div class="skills-name">React JS</div>
+
+</div>
+</section>
+<section class="qualification section">
+  <h2 class="section-title">Qualification</h2>
+  <span class="section-subtitle">My journey</span>
+
+  <div class="qualification-container container">
+    <div class="qualification-tabs">
+      <div class="qualification-button button-flex qualification-active" data-target="#education">
+        <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+        Education
+      </div>
+      <!-- <div class="qualification-button button-flex" data-target="#work">
+        <i class="fa-solid fa-briefcase qualification-icon"></i>
+        Work
+      </div> -->
+    </div>
+
+    <div class="qualification-section">
+      <div class="qualification-content qualification-active" data-content id="education">
+        <!-- qualifi 1 -->
+        <div class="qualification-data">
+          <div>
+            <h3 class="qualification-title">
+              Computer Science Engineering
+            </h3>
+            <span class="qualification-subtitle">PVPIT, Sangli</span>
+            <div class="qualification-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              2020 - 2024
+            </div>
+          </div>
+          <div>
+            <span class="qualification-round"></span>
+            <span class="qualification-line"></span>
+          </div>
+        </div>
+
+        <!-- qualifi 2 -->
+
+        <div class="qualification-data">
+          <div></div>
+
+          <div>
+            <span class="qualification-round"></span>
+            <span class="qualification-line"></span>
+          </div>
+
+          <div>
+            <h3 class="qualification-title">
+              XII
+            </h3>
+            <span class="qualification-subtitle">Maharashtra State Board</span>
+            <div class="qualification-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              2019 - 2020
+            </div>
+          </div>
+        </div>
+
+        <!-- qualifi 3 -->
+
+        <div class="qualification-data">
+          <div>
+            <h3 class="qualification-title">X</h3>
+            <span class="qualification-subtitle">Maharashtra State Board</span>
+            <div class="qualification-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              2017 - 2018
+            </div>
+          </div>
+          <div>
+            <span class="qualification-round"></span>
+            <span class="qualification-line"></span>
+          </div>
+        </div>
+
+        <!-- qualifi 4 -->
+
+        <div class="qualification-data">
+          <div></div>
+          <div>
+            <span class="qualification-round"></span>
+            <!-- <span class="qualification-line"></span> -->
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+
+      <!-- qualific content 2  -->
+      <div class="qualification-content" data-content id="work">
+
+        <!-- qualifi 1 -->
+
+        <div class="qualification-data">
+          <div></div>
+
+          <div>
+            <span class="qualification-round"></span>
+            <span class="qualification-line"></span>
+          </div>
+
+          <div>
+            <h3 class="qualification-title">Web Development and Designing</h3>
+            <span class="qualification-subtitle">Oasis Infobyte</span>
+            <div class="qualification-date">
+              <i class="fa-solid fa-calendar-days"></i>
+              Sep 23 - Oct 23
+            </div>
+          </div>
+        </div>
+
+        <!-- qualifi 2 -->
+
+        <div class="qualification-data">
+          <div>
+            <h3 class="qualification-title"></h3>
+            <span class="qualification-subtitle"></span>
+            <div class="qualification-date">
+
+            </div>
+          </div>
+          <div>
+            <span class="qualification-round"></span>
+            <!-- <span class="qualification-line"></span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- portfolio -->
+<section class="portfolio section" id="portfolio">
+  <h2 class="section-title">Projects</h2>
+  <span class="section-subtitle">Most recent work</span>
+
+  <div class="portfolio-container container swiper-container">
+    <div class="swiper-wrapper">
+      <!-- project1  -->
+      <div class="portfolio-content grid swiper-slide">
+        <img src="images/project1.png" alt="" class="portfolio-img" />
+
+        <div class="portfolio-data">
+          <h3 class="portfolio-title">CoinSearch - Crypto Tracker</h3>
+          <p class="portfolio-description">
+            A crypto price tracker project monitors real-time cryptocurrency values, providing
+            users with insights into market trends and fluctuations.
+          </p>
+          <a href="https://coin-search2.vercel.app/" target="_blank"
+            class="button button-flex button-small portfolio-button">Project Link
+            <i class="fa-solid fa-arrow-right button-icon"></i></a>
+        </div>
+      </div>
+      <!-- project2  -->
+      <div class="portfolio-content grid swiper-slide">
+        <img src="images/project2.png" alt="" class="portfolio-img" />
+
+        <div class="portfolio-data">
+          <h3 class="portfolio-title">AgroSmart - Crop Recommendation System</h3>
+          <p class="portfolio-description">
+            Designed and developed a comprehensive Crop Recommendation System leveraging Machine Learning algorithms. 
+          </p>
+          <!-- <a href="https://coin-search2.vercel.app/" target="_blank"
+            class="button button-flex button-small portfolio-button">Project Link
+            <i class="fa-solid fa-arrow-right button-icon"></i></a> -->
+        </div>
+      </div>
+       <!-- project3  -->
+       <div class="portfolio-content grid swiper-slide">
+        <img src="images/project3.png" alt="" class="portfolio-img" />
+
+        <div class="portfolio-data">
+          <h3 class="portfolio-title">Feed The Dragon- Game Development</h3>
+          <p class="portfolio-description">
+            Developed "Feed the Dragon" game using Python and Pygame, focusing on feeding a dragon flying coins while controlling its vertical movement with the arrow keys.
+          </p>
+          <!-- <a href="https://portfolio57.vercel.app/" target="_blank"
+            class="button button-flex button-small portfolio-button">Project Link
+            <i class="fa-solid fa-arrow-right button-icon"></i></a> -->
+        </div>
+      </div>
+      <!-- project4  -->
+      <div class="portfolio-content grid swiper-slide">
+        <img src="images/project4.png" alt="" class="portfolio-img" />
+
+        <div class="portfolio-data">
+          <h3 class="portfolio-title">Portfolio</h3>
+          <p class="portfolio-description">
+            Impressive portfolio sites that showcase your talents with a
+            flawless user experience.
+          </p>
+          <a href="https://portfolio57.vercel.app/" target="_blank"
+            class="button button-flex button-small portfolio-button">Project Link
+            <i class="fa-solid fa-arrow-right button-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-angles">
+      <div class="swiper-button-next">
+        <i class="fa-solid fa-angle-right swiper-icon"></i>
+      </div>
+      <div class="swiper-button-prev">
+        <i class="fa-solid fa-angle-left swiper-icon"></i>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<section class="project-contact section">
+  <div class="project-bg">
+    <div class="project-container container grid">
+      <div class="project-data">
+        <h2 class="project-title">Do you have a new project?</h2>
+        <p class="project-description">
+          Contact me now.
+        </p>
+        <a href="#contact" class="button button-flex button-white">Contact Me
+          <i class="fa-regular fa-comment-dots project-icon button-icon"></i>
+        </a>
+      </div>
+      <img src="images/Icons/contactme.png" alt="" class="project-img" />
+    </div>
+  </div>
+
+<!-- contact me  -->
+<section class="contact section" id="contact">
+  <h2 class="section-title">Contact me</h2>
+  <span class="section-subtitle">Get in touch</span>
+
+  <div class="contact-container container grid">
+    <div class="contact-info-wrapper">
+      <div class="contact-info">
+        <i class="uil uil-phone contact-icon"></i>
+        <div>
+          <h3 class="contact-title">Call Me</h3>
+          <span class="contact-subtitle">+91 9021597414</span>
+        </div>
+      </div>
+      <div class="contact-info">
+        <i class="uil uil-envelope contact-icon"></i>
+        <div>
+          <h3 class="contact-title">Email</h3>
+          <a href="mailto:cjpatil23@gmail.com" target="_blank" class="contact-subtitle">cjpatil23@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-info">
+        <i class="uil uil-linkedin contact-icon"></i>
+        <div>
+          <h3 class="contact-title">LinkedIn</h3>
+          <a class="contact-subtitle" href="https://www.linkedin.com/in/chiragpatil23/" target="_blank">@chiragpatil23</a>
+        </div>
+      </div>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form grid">
+      <input type="hidden" name="access_key" value="659b5fcd-a45d-43c8-b334-caa1c0ba956b">
+      <div class="contact-inputs grid">
+        <div class="contact-content">
+          <label for="name" class="contact-label">Name</label>
+          <input type="text" id="name" name="name" class="contact-input">
+        </div>
+        <div class="contact-content">
+          <label for="email" class="contact-label">Email</label>
+          <input type="email" id="email" name="email" class="contact-input">
+        </div>
+        <div class="contact-content">
+          <label for="message" class="contact-label">Message</label>
+          <textarea id="message" name="message" cols="0" rows="4" class="contact-input-msg"></textarea>
+        </div>
+        <div class="button-container">
+          <button type="submit" class="button button--flex">
+            Send Message
+            <i class="uil uil-message button-icon"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+  <!-- footer  -->
+  <footer class="footer">
+    <div class="footer-bg">
+      <div class="footer-container container grid">
+        <div>
+          <h1 class="footer-title">Chirag Patil</h1>
+          <span class="footer-subtitle">Web developer</span>
+        </div>
+        <ul class="footer-links">
+          <li>
+            <a href="#portfolio" class="footer-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer-link">Contact</a>
+          </li>
+        </ul>
+
+        <div class="footer-socials">
+          <a href="https://www.linkedin.com/in/chiragpatil23/" target="_blank" class="footer-social">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/chiragpatil-23/" target="_blank" target="_blank" class="footer-social">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/_chiragpatil__/" target="_blank" class="footer-social">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer-copy"> &copy; 2023 Chirag Patil. All rights reserved.</p>
+    </div>
+  </footer>
+  </main>
+
+  <a href="#home" class="scrollup" id="scroll-up">
+    <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
+  </a>
+  <script src="Libraries/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9b634c15bd.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  </body>
+
+  </html>
